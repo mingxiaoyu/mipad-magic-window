@@ -2,8 +2,8 @@
 # 请不要硬编码 /magisk/modname/... ; 请使用 $MODDIR/...
 # 这将使你的脚本更加兼容，即使Magisk在未来改变了它的挂载点
 MODDIR=${0%/*}
-# DIY_CONFIG_EMBEDDED_RULES_LIST="/data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml"
-# DIY_CONFIG_FIXED_ORIENTATION_LIST="/data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml"
+DIY_CONFIG_EMBEDDED_RULES_LIST="/data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml"
+DIY_CONFIG_FIXED_ORIENTATION_LIST="/data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml"
 
 # # 对云控文件解除写保护
 # chattr -i /data/system/cloudFeature_embedded_rules_list.xml
